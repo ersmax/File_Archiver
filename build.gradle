@@ -1,0 +1,76 @@
+
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.javamodularity.moduleplugin' version '1.8.12'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'org.beryx.jlink' version '2.25.0'
+}
+
+group = 'nl.vu.cs.softwaredesign'
+version = '1.0-SNAPSHOT'
+description = 'software-design-vu-master'
+java.sourceCompatibility = JavaVersion.VERSION_21
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://repo1.maven.org/maven2/' // Add an additional Maven repository
+    }
+}
+
+ext {
+    junitVersion = '5.10.0'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+application {
+    mainModule = 'nl.vu.cs.softwaredesign'
+    mainClass = 'nl.vu.cs.softwaredesign.Launcher'
+}
+
+dependencies {
+    implementation('org.controlsfx:controlsfx:11.1.2')
+
+    //1,26.1 aswell
+    implementation 'org.apache.commons:commons-compress:1.26.1'
+
+
+    //1st choice for 7z
+    implementation 'org.apache.commons:commons-compress:1.26.1'
+
+    //2nd choice for 7z
+//    implementation 'net.sf.sevenzipjbinding:sevenzipjbinding:9.20'
+//    implementation 'net.sf.sevenzipjbinding:sevenzipjbinding-all-platforms:16.02-1.9.1'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jlink {
+    imageZip = project.file("${buildDir}/distributions/app-${javafx.platform.classifier}.zip")
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'app'
+    }
+}
+
+jlinkZip {
+    group = 'distribution'
+}
+
+
+
