@@ -9,3 +9,6 @@ file management, which enables users to organize, edit and extract data from the
 ## Keywords
 User Interface, Friendly UI, compression, Encryption, AES encryption, GUI, Graphical
 User Interface.
+
+## DOI
+http://dx.doi.org/10.13140/RG.2.2.11833.28000
