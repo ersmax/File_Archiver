@@ -8,6 +8,12 @@ The key features include combining a number of files in one archive; supporting 
 Below are some screenshot of the File Archiver application in action:
 
 <img src="Demo/Capture.PNG" alt="File Archiver Demo" width="400"/>
+<img src="Demo/Capture2.PNG" alt="File Archiver Demo" width="400"/>
+<img src="Demo/Capture3.PNG" alt="File Archiver Demo" width="400"/>
+<img src="Demo/Capture4.PNG" alt="File Archiver Demo" width="400"/>
+<img src="Demo/Capture5.PNG" alt="File Archiver Demo" width="400"/>
+<img src="Demo/Capture6.PNG" alt="File Archiver Demo" width="400"/>
+<img src="Demo/Capture7.PNG" alt="File Archiver Demo" width="400"/>
 
 
 
