@@ -7,7 +7,8 @@ The key features include combining a number of files in one archive; supporting 
 
 - Title: File Archiver — Software design in Java  
 - Type: Technical Report · August 2025  
-- DOI: 10.13140/RG.2.2.11833.28000  
+- DOI: 10.13140/RG.2.2.11833.28000
+- https://doi.org/10.13140/RG.2.2.11833.28000
 - ResearchGate: https://www.researchgate.net/publication/394249241
 
 ## Disclaimer
