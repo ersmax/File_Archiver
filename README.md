@@ -3,6 +3,19 @@
 The aim of the file archiver is providing a system to manage archives of files on a machine. 
 The key features include combining a number of files in one archive; supporting different formats of compression so as to optimize disk storage; easing navigation through a User Interface. The key functionalities include the creation of the archive, which allows users to create an archive that has a number of files; Compression, which gives the user different compression formats to achieve an optimal disk management; file management, which enables users to organize, edit and extract data from the archive.
 
+## Demo
+
+Below are some screenshot of the File Archiver application in action:
+
+![File Archiver Demo](Demo/Capture.png)
+![File Archiver Demo](Demo/Capture2.png)
+![File Archiver Demo](Demo/Capture3.png)
+![File Archiver Demo](Demo/Capture4.png)
+![File Archiver Demo](Demo/Capture5.png)
+![File Archiver Demo](Demo/Capture6.png)
+![File Archiver Demo](Demo/Capture7.png)
+
+
 ## Publication
 
 - Title: File Archiver — Software design in Java  
