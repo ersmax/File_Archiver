@@ -7,7 +7,7 @@ The key features include combining a number of files in one archive; supporting 
 
 Below are some screenshot of the File Archiver application in action:
 
-<img src="File_Archiver/Demo/Capture.PNG" alt="File Archiver Demo" width="400"/>
+<img src="Demo/Capture.PNG" alt="File Archiver Demo" width="400"/>
 
 
 
